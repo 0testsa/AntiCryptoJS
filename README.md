@@ -1,6 +1,6 @@
-# AntiCryptoJs Script
+# AntiCryptoJS Script
 
-This project contains a script for encrypting and decrypting data using AES and DES algorithms. It also includes a test script to validate the functionality of the AntiCryptoJs script.
+This project contains a script for encrypting and decrypting data using AES and DES algorithms. It also includes a test script to validate the functionality of the AntiCryptoJS script.
 
 ## Requirements
 
@@ -17,13 +17,13 @@ pip install -r requirements.txt
 Run the script with the `-h` or `--help` flag to see the help message:
 
 ```bash
-python AntiCryptoJs.py -h
+python AntiCryptoJS.py -h
 ```
 
 The help message displays the following information:
 
 ```
-usage: AntiCryptoJs.py [-h] --alg {AES,DES} --key KEY --iv IV [--block_size BLOCK_SIZE] [--enc] [--dec] data
+usage: AntiCryptoJS.py [-h] --alg {AES,DES} --key KEY --iv IV [--block_size BLOCK_SIZE] [--enc] [--dec] data
 
 Encrypt or decrypt data using various algorithms.
 
@@ -42,42 +42,42 @@ options:
 
 Examples:
   Encrypt using AES:
-    python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --enc "your data to encrypt"
+    python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --enc "your data to encrypt"
   Encrypt using AES with a specified block size:
-    python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --block_size 16 --enc "your data to encrypt"
+    python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --block_size 16 --enc "your data to encrypt"
   Decrypt using AES:
-    python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --dec "your encrypted data"
+    python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --dec "your encrypted data"
   Encrypt using DES:
-    python AntiCryptoJs.py --alg DES --key DESKey@8 --iv DESKey@8 --enc "your data to encrypt"
+    python AntiCryptoJS.py --alg DES --key DESKey@8 --iv DESKey@8 --enc "your data to encrypt"
   Encrypt using DES with a specified block size:
-    python AntiCryptoJs.py --alg DES --key DESKey@8 --iv DESKey@8 --block_size 8 --enc "your data to encrypt"
+    python AntiCryptoJS.py --alg DES --key DESKey@8 --iv DESKey@8 --block_size 8 --enc "your data to encrypt"
   Decrypt using DES:
-    python AntiCryptoJs.py --alg DES --key DESKey@8 --iv DESKey@8 --dec "your encrypted data"
+    python AntiCryptoJS.py --alg DES --key DESKey@8 --iv DESKey@8 --dec "your encrypted data"
 ```
 ### Encrypting Data
 
 Encrypt data using AES with direct input:
 
 ```bash
-python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --enc "your data to encrypt"
+python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --enc "your data to encrypt"
 ```
 
 Encrypt data using AES with a specified block size:
 
 ```bash
-python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --block_size 16 --enc "your data to encrypt"
+python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --block_size 16 --enc "your data to encrypt"
 ```
 
 Encrypt data using AES with file input:
 
 ```bash
-python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --enc "path_to_your_file"
+python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --enc "path_to_your_file"
 ```
 
 Encrypt data using DES with direct input:
 
 ```bash
-python AntiCryptoJs.py --alg DES --key DESKey@8 --iv DESKey@8 --enc "your data to encrypt"
+python AntiCryptoJS.py --alg DES --key DESKey@8 --iv DESKey@8 --enc "your data to encrypt"
 ```
 
 ### Decrypting Data
@@ -85,24 +85,24 @@ python AntiCryptoJs.py --alg DES --key DESKey@8 --iv DESKey@8 --enc "your data t
 Decrypt data using AES with direct input:
 
 ```bash
-python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --dec "your encrypted data"
+python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --dec "your encrypted data"
 ```
 
 Decrypt data using AES with file input:
 
 ```bash
-python AntiCryptoJs.py --alg AES --key testtestte@12345 --iv testtestte@12345 --dec "path_to_your_file"
+python AntiCryptoJS.py --alg AES --key testtestte@12345 --iv testtestte@12345 --dec "path_to_your_file"
 ```
 
 Decrypt data using DES with direct input:
 
 ```bash
-python AntiCryptoJs.py --alg DES --key DESKey@8 --iv DESKey@8 --dec "your encrypted data"
+python AntiCryptoJS.py --alg DES --key DESKey@8 --iv DESKey@8 --dec "your encrypted data"
 ```
 
 ## Running Tests
 
-To run the provided test cases, use the `AntiCryptoJs_testing.py` script. This script will test various encryption and decryption scenarios for both AES and DES algorithms using different keys and initialization vectors.
+To run the provided test cases, use the `AntiCryptoJS_testing.py` script. This script will test various encryption and decryption scenarios for both AES and DES algorithms using different keys and initialization vectors.
 
 ### Test Cases
 
@@ -116,7 +116,7 @@ To run the provided test cases, use the `AntiCryptoJs_testing.py` script. This s
 To run the tests:
 
 ```bash
-python AntiCryptoJs_testing.py
+python AntiCryptoJS_testing.py
 ```
 
 This will execute all the test cases and print the results to the console.
