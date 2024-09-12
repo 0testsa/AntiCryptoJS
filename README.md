@@ -1,6 +1,6 @@
 # AntiCryptoJS Script
 
-This project contains a script for encrypting and decrypting data using AES and DES algorithms. It also includes a test script to validate the functionality of the AntiCryptoJS script.
+This project contains a script for encrypting and decrypting data using AES and DES algorithms that generaly used by crypto-js library. It also includes a test script to validate the functionality of the AntiCryptoJS script. The main goal of this script is to help the Penetration Tester to deal with encrypted client-side data in their assement.
 
 ## Requirements
 
